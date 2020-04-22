@@ -1,3 +1,7 @@
+variable "region1" { default = "" }
+variable "region2" { default = "" }
+variable "region3" { default = "" }
+
 variable "prefix" { default = "" }
 variable "ssh_key_name" { default = "" }
 variable "consul_cluster_size" { default = 5 }
